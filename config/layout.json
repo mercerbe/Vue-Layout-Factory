@@ -1,0 +1,133 @@
+{
+  "component": "Layout",
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    {
+      "component": "Layout",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": [
+        {
+          "component": "Item",
+          "display": {
+            "weight": 1
+          },
+          "props": {
+            "background": "#E6E7E8",
+            "content": "This"
+          }
+        },
+        {
+          "component": "Item",
+          "display": {
+            "weight": 2
+          },
+          "props": {
+            "classes": "rounded-md border-solid border-4 border-gray-600",
+            "content": "Styled"
+          }
+        },
+        {
+          "component": "Layout",
+          "props": {
+            "orientation": "vertical"
+          },
+          "children": [
+            {
+              "component": "Item",
+              "display": {
+                "weight": 1
+              },
+              "props": {
+                "background": "#E6E7E8",
+                "content": "and"
+              }
+            },
+            {
+              "component": "Item",
+              "display": {
+                "weight": 1
+              },
+              "props": {
+                "background": "#E6E7E8",
+                "content": "vertical."
+              }
+            }
+          ]
+        },
+        {
+          "component": "Item",
+          "display": {
+            "weight": 1
+          },
+          "props": {
+            "background": "#E6E7E8",
+            "content": "horizontal."
+          }
+        }
+      ]
+    },
+    {
+      "component": "Item",
+      "props": {
+        "background": "#E6E7E8",
+        "content": "This"
+      }
+    },
+    {
+      "component": "Item",
+      "display": {
+        "weight": 1
+      },
+      "props": {
+        "background": "#E6E7E8",
+        "content": "horizontal."
+      }
+    },
+    {
+      "component": "Layout",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": [
+        {
+          "component": "Item",
+          "display": {
+            "weight": 1
+          },
+          "props": {
+            "background": "#E6E7E8",
+            "content": "This"
+          }
+        },
+        {
+          "component": "Item",
+          "display": {
+            "weight": 1
+          },
+          "props": {
+            "background": "#E6E7E8",
+            "content": "is"
+          }
+        }
+      ]
+    },
+    {
+      "component": "Item",
+      "props": {
+        "background": "#E6E7E8",
+        "content": "is"
+      }
+    },
+    {
+      "component": "Item",
+      "props": {
+        "background": "#E6E7E8",
+        "content": "vertical."
+      }
+    }
+  ]
+}

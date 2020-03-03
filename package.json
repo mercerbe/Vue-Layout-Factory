@@ -1,0 +1,51 @@
+{
+  "name": "vue-layout-factory",
+  "version": "0.1.0",
+  "description": "Json schema based layouts in Vue",
+  "author": "Ben Mercer",
+  "main": "dist/vue-layout-factory.common.js",
+  "module": "dist/vue-layout-factory.esm.js",
+  "browser": "dist/vue-layout-factory.js",
+  "unpkg": "dist/vue-layout-factory.js",
+  "files": [
+    "dist/*",
+    "src/*"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --name vue-layout-factory src/index.js",
+    "lint": "eslint --ext .js,.vue"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/vue-fontawesome": "^0.1.7",
+    "autoprefixer": "^9.7.4",
+    "core-js": "^2.6.5",
+    "lodash": "^4.17.15",
+    "tailwindcss": "^1.2.0",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-plugin-eslint": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.6.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-vue": "^6.0.1",
+    "husky": "^3.1.0",
+    "lint-staged": "^9.5.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "lint-staged": {
+    "*.{js,vue}": "yarn run lint"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
